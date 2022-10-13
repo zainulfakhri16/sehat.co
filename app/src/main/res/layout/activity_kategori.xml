@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/grub_B"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/latar_katerogri"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityKategori">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+     <TextView
+        android:id="@+id/t_Logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:text="SEHAT.C"
+        android:textColor="@color/white"
+        android:textSize="55dp"
+        android:fontFamily="@font/mextrabold"
+        android:letterSpacing="0.04">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/logo">
+
+    </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="255dp"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/popregular"
+            android:text="Kategori Pengguna"
+            android:textColor="@color/white"
+            android:textSize="12dp">
+
+        </TextView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="220dp"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/tb_dewasa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="66dp"
+                android:layout_marginRight="27dp"
+                android:background="@drawable/border_kategori"
+                android:fontFamily="@font/poppsemibold"
+                android:gravity="center"
+                android:text="Dewasa"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/tb_remaja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tb_dewasa"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="27dp"
+                android:background="@drawable/border_kategori"
+                android:fontFamily="@font/poppsemibold"
+                android:gravity="center"
+                android:text="Remaja"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp">
+
+            </Button>
+
+            <Button
+                android:id="@+id/tb_anak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tb_remaja"
+                android:layout_marginLeft="27dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="27dp"
+                android:background="@drawable/border_kategori"
+                android:fontFamily="@font/poppsemibold"
+                android:gravity="center"
+                android:text="Anak-anak"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="15sp">
+
+            </Button>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
